@@ -517,14 +517,23 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
   box-shadow: var(--glow-lg), var(--shadow-lg);
   border: 1px solid var(--border-h);
   font-size: 5rem;
 }
 
+.hero-image {
+  max-width: 380px;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border-h);
+  background: var(--accent-grd);
+  object-fit: cover;
+}
+
 .about-img-label {
-  font-size: 1rem;
+  position: absolute;
+  bottom: 0.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: rgba(255,255,255,.9);
   letter-spacing: .02em;
